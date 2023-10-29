@@ -142,14 +142,7 @@ nav{
     color: blue;
     margin-left: 20px;
 }
-button{
-    background-color: orangered;
-    border: 1px solid orangered;
-    width: 800px;
-    height: 40px;
-    margin-top: 40px;
-    margin-left: -80px;
-}
+
 .more{
     background-color: white;
 }
@@ -253,5 +246,151 @@ button{
     max-width: 70px;
     max-height: 70px;
     border-radius: 60px;
+}
+.center{
+    background-color: rgb(6, 6, 78);
+    border: 1px solid blue;
+    height: 100px;
+}
+.facebook img{
+    max-width: 15px;
+    max-height: 15px;
+    border-radius: 60px;
+}
+.all-3g .center3{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.all-3g .twot{
+    display: flex;
+    color: white;
+}
+.twot .leftt{
+    margin-left: 90px;
+    text-wrap: nowrap;
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    border-radius: 20px;
+    height: 20px;
+    justify-content: center;
+    padding: 2px;
+    font-size: 12px;
+}
+.twot .glamour{
+    margin-left: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.firstc{
+    background-image: url(./assets/images/pink.jpg);
+    height: 120px;
+    margin-top: -40px;
+}
+.twoh{
+    padding-top: 30px;
+}
+.twoh .lo{
+    border: 2px solid rgba(255, 255, 255, 0.521);
+    margin-left: 20px;
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 30px;
+    outline: 1px solid rgba(255, 0, 0, 0.486);
+    outline-offset: -5px;
+    color: white;
+    box-shadow: 10px 10px 20px yellow;
+}
+.hant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    margin-left: 260px;
+    margin-top: -60px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    height: 30px;
+}
+.one1 p{
+    border: 2px solid white;
+    width: 20px;
+}
+.one2 p{
+        border: 2px solid white;
+        margin-top: -10px;
+        width: 20px;
+}
+.one3 p{
+    border: 2px solid white;
+    margin-top: -10px;
+    width: 20px;
+}
+textarea{
+    background-color: red;
+    width: 300px;
+}
+input{
+    width: 200px;
+}
+.forme{
+    margin-top: 30px;
+}
+button{
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    margin-left: 90px;
+}
+.blackl{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.loo .lloo{
+    border: 1px solid red;
+    background-color: white;
+    width: 70px;
+    height: 60px;
+    color: black;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p .f{
+    color: red;
+    margin-bottom: 15px;
+}
+.im1 img{
+    max-width: 120px;
+    max-height: 120px;
+    border: 4px solid black;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.rone{
+    display: flex;
+    gap: 20px;
+    background-color: blueviolet;
+}
+.paraaa p{
+    border: 1px solid rgba(0, 0, 0, 0.541);
+}
+.copy{
+    color: rgba(0, 0, 0, 0.514);
 }
 }
