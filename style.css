@@ -1,6 +1,12 @@
 
 @media screen and (min-width: 280px) and (max-width: 768px) 
 {
+.nav-desk{
+    display: none;
+}
+.about-desk{
+    display: none;
+}
 nav{
  background-color: black;
  border: 1px solid red;
@@ -392,5 +398,305 @@ p .f{
 }
 .copy{
     color: rgba(0, 0, 0, 0.514);
+}
+.le{
+    display: none;
+}
+.mo{
+    display: none;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+nav{
+    background-color: black;
+}
+.twot .glamour{
+    color: red;
+}
+}
+@media screen and (min-width: 1024px){
+.nav-desk{
+    background-color: black;
+    width: 1500px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.nav-desk .fwha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 15px;
+    gap: 40px;
+}
+.fa a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: arial;
+    color: white;
+}
+.fa img{
+    max-width: 20px;
+    max-height: 20px;
+    border-radius: 60px;
+}
+.about-desk{
+    background-color: white;
+    width: 1500px;
+    height: 80px;
+    position: fixed;
+    margin-top: -110px;
+    left: 0px;
+}
+.all-d{
+    display: flex;
+    gap: 90px;
+    margin-left: 260px;
+}
+.all-d .gl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-top: 15px;
+}
+.all-d .gll{
+    display: flex;
+    margin-left: 400px;
+    gap: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.gll .mai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgba(255, 0, 0, 0.539);
+    margin-top: -10px;
+    height: 30px;
+    padding: 3px;
+}
+.hello-main{
+    border: 4px solid red;
+    background-image: linear-gradient(gray,gray);
+    margin-top: 150px;
+    margin-left: -20px;
+    width: 1400px;
+}
+.all .hello{
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.all .tittle{
+    color: white;
+}
+.all .location{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.212);
+    border: 1px solid rgba(0, 0, 0, 0.383);
+    width: 150px;
+    margin-left: 600px;
+}
+.all .des{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.221);
+    background-color: rgba(0, 0, 0, 0.511);
+    width: 1200px;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-family: arial;
+    line-height: 25px;
+    padding: 10px;
+}
+.all .promotion{
+    color: white;
+    border: 1px solid red;
+    width: 1220px;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.style1 img{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 60px;
+}
+.chose .style1{
+    width: 160px;
+    margin-left: 70px;
+}
+.style1 span{
+    display: flex;
+    color: red;
+    margin-top: 20px;
+}
+.style2 span{
+    display: flex;
+    margin-top: 20px;
+    color: red;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.chose .style2{
+    width: 120px;
+    margin-left: 60px;
+}
+.style2 img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 60px;
+}
+.styles .chose{
+    display: flex;
+    background-image: url(./assets/images/pink.jpg);
+    width: 1400px;
+    height: 430px;
+    margin-left: -10px;
+    padding-top: 60px;
+    gap: 60px;
+}
+.style1 p{
+    display: flex;
+    margin-top: 50px;
+}
+.style2 p{
+    display: flex;
+    margin-top: 50px;
+}
+.book button{
+    background-color: orangered;
+    height: 40px;
+    width: 150px;
+    margin-left: 600px;
+    margin-top: -300px;
+}
+.hair-styles{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 70px;
+    font-size: 30px;
+}
+.pp p{
+    border: 1px solid red;
+    width: 40px;
+    margin-top: 35px;
+    margin-left: -110px;
+}
+.more .less{
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.le .one{
+    display: flex;
+    margin-left: 110px;
+}
+.mo .one{
+    display: flex;
+    margin-left: 160px;
+}
+.one .pric{
+    display: flex;
+    margin-left: 40px;
+}
+.one .one-3{
+    color: red;
+}
+.one-2 p{
+    border: 1px solid gray;
+    width: 60px;
+}
+.one .allo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.one-one img{
+    max-width: 130px;
+    max-height: 130px;
+}
+.one-neo img{
+    max-width: 150px;
+    max-height: 150px;
+}
+.one-ne img{
+    max-width: 130px;
+    max-height: 130px;
+}
+.one-oe img{
+    max-width: 130px;
+    max-height: 170px;
+}
+.one-o img{
+    max-width: 130px;
+    max-height: 130px;
+}
+.one-on img{
+    max-width: 130px;
+    max-height: 130px;
+}
+.fot{
+    background-color: black;
+    width: 1400px;
+    margin-left: -10px;
+    height: 230px;
+    margin-top: 80px;
+    color: white;
+}
+.fot .part{
+    display: flex;
+    margin-left: 650px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.pap p{
+    border: 1px solid red;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: -50px;
+}
+.fot .allpat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.footer{
+    background-color: white;
+    display: flex;
+    height: 40px;
+}
+.foot{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.footer .link{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.foot img{
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 60px;
 }
 }
